@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LOGIN</title>
+<style>
+body{
+     background-image: url(forest.jpg); background-repeat: no-repeat; background-size: cover;
+     
+    
+}
+
+.container{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     width: 350px;
+     height: 400px;
+     border: 1px solid rgba(255,225,225,0.4);
+     background: rgba(225,225,225,0.12);
+     backdrop-filter: 12px;
+     border-radius: 15px;
+     display: flex;
+     flex-direction: column;
+     gap: 30px;
+     align-items: center;
+     justify-content: center;
+     margin-left: 38%;
+     margin-top: 15%;
+     
+    
+    }
+
+
+
+
+.box h2{ 
+        text-align: center;
+        margin-bottom: 15px;
+        color: aliceblue;
+        font-weight: 400px;
+        font-size: 20px;
+    
+}
+.box input{
+        width: 280px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        border: 1px solid rgba(255,225,225,0.7);
+        border-radius: 20px;
+        margin-bottom: 15px;
+        padding-left: 15px;
+        background: transparent;
+        color: whitesmoke;
+        outline: none;
+}
+
+.box ::placeholder{
+      color: rgba(255,225,225,0.4);
+}
+
+
+
+.box2{
+     font-size: 12px;
+     color: aqua;
+}
+
+.box2{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 300px;
+
+     
+}
+.box2 a{
+    
+    text-decoration: none;
+    color: rgb(228, 212, 212);
+
+}
+#btn{
+     border: solid 2px;
+     border-radius: 20px;
+     width: 280px;
+     height: 35px;
+     font-size: 12px;
+     background-color: azure;
+}
+
+
+.box3{
+     color: antiquewhite;
+     font-size: 12px;
+
+}
+
+
+.box3 a{
+    text-decoration: none;
+    color: rgb(243, 227, 227);
+    
+}
+
+
+
+.box input:hover{
+      color: chartreuse;
+      background-color: black;
+      
+}
+
+
+.box2:hover{
+     color: chartreuse;
+}
+
+.box2 a:hover{
+    color: chartreuse;
+}
+
+
+
+#btn:hover{
+    background-color: black;
+    color:lime;
+}
+
+.box3:hover{
+     color: yellowgreen;
+}
+
+.box3 a:hover{
+    color: chartreuse;
+}
+
+
+</style>
+</head>
+<body>
+    <div class="container">
+    <div class="box">
+        <h2>Login</h2>
+        <input type="text" placeholder="username">
+        
+        <input type="password" placeholder="password">
+        
+        
+    </div>
+    <div class="box2">
+ <lable><input type="checkbox"> Remember Me?</lable>
+        <a href="#">Forgot password</a>
+    </div>
+    <button id="btn">Sumbit</button>
+    <div class="box3">
+        Dont have an account 
+         <a href="register.html">Register?</a> 
+    </div>
+    </div>
+</body>
+</html>

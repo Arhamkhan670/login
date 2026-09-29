@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+<style>
+    body{
+        background-color: #ffffff;
+    }
+
+.container{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        justify-content: center;
+        margin-top: 15%;
+}
+
+.box{
+    
+    width: 350px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(135deg, #ff9d00, #ff3f35);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius:15px ;
+    padding: 20px;
+
+}
+.box h2{
+      margin-top:20px;
+      font-weight:bold;
+      font-size: 32px;
+      color: white;
+}
+.box i{
+    margin-top: 20%;
+    font-size: 40px;
+    
+    
+}
+.box p{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    padding: 0 10px;
+}
+#btn{
+    margin-top: 15px;
+    background: transparent;
+    color: white;
+    border: solid 1px lightgray;
+    border-radius: 25px;
+    font-size: 16px;
+    height: 50px;
+    width: 160px;
+    
+}
+#btn span{
+    font-size: 25px;
+}
+
+
+.box2{
+     
+     width:350px;
+     height: 420px;
+     padding: 20px;
+     display: flex;
+     flex-direction: column;
+     gap: 15px;
+     align-items: center;
+     border-top-right-radius:15px ;
+     border-bottom-right-radius:15px;
+    background-color: #f5f7fa;
+    
+
+}
+
+
+.box2 h2{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+
+.icon{
+     display: flex;
+     flex-direction: row;
+     gap: 60px;
+     color:black;
+     
+     
+}
+.input input{
+    width: 90%;
+    height: 31px;
+    margin-bottom: 10px;
+    padding-left:15px ;
+    border: 1px solid rgba(255,225,225,0.7);
+    background-color: rgb(176, 201, 199);
+}
+.input ::placeholder{
+    color: azure;
+    
+}
+
+.term{
+    margin-right: 50%;
+    white-space: nowrap;
+}
+#bnt{
+     width: 90%;
+     margin-bottom: 5px;
+     font-size: 10px;
+     padding: 12px;
+     color: white;
+     background-color: orangered;
+}
+</style>
+
+</head>
+<body>
+    <div class="container">
+<div class="box">
+<i class="fa-solid fa-arrow-right-to-bracket" style="color: rgb(251, 249, 255);"></i>
+<h2>Welcom Back!</h2>
+
+<p>To keep connected with us please login with your personal info</p>
+
+<button id="btn"> <span>&larr;</span> LOG IN</button>
+
+</div>
+
+
+
+<div class="box2">
+    <h2>Sign Up</h2>
+    <div class="icon">
+    <i class="fa-brands fa-facebook-f" style="color: rgb(0, 0, 0);"></i>
+    <i class="fa-brands fa-twitter" style="color: rgb(0, 0, 0);"></i>
+    <i class="fa-brands fa-github" style="color: rgb(0, 0, 0);"></i>
+    <i class="fa-brands fa-linkedin-in" style="color: rgb(0, 0, 0);"></i>
+</div>
+<p>OR</p>
+    <div class="input">
+    <input type="text" placeholder="name">
+    <input type="email" placeholder="email">
+    <input type="password" placeholder="password">
+    </div>
+    <div class="term">
+    <label><input type="checkbox">accept term</label>
+    </div>
+    <button id="bnt">REGISTER</button>
+</div>
+
+
+
+
+</div>
+
+
+    
+</body>
+</html>
